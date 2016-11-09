@@ -4,8 +4,8 @@
 sudo spctl --master-disable
 
 # initialize
+export HOMEBREW_VERBOSE=true
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
-ZSH=~/.oh-my-zsh
 CHECK_FISH_INSTALLED=$(grep /fish$ /etc/shells | wc -l)
 FISHERMAN=~/.config/fish/functions/fisher.fish
 
@@ -24,12 +24,6 @@ git config --global push.default simple
 brew tap caskroom/cask
 brew cask install iterm2
 
-# Oh My Zsh
-if [ ! -d $ZSH ]; then
-  git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git $ZSH
-  cp $ZSH/templates/zshrc.zsh-template ~/.zshrc
-fi
-
 # fish shell
 if [ ! $CHECK_FISH_INSTALLED -ge 1 ]; then
   brew install fish
@@ -42,8 +36,8 @@ if [ ! -f $FISHERMAN ]; then
 fi
 
 # profile
-echo "# Homebrew Bottles" | tee -a ~/.config/fish/config.fish ~/.zshrc ~/.bash_profile
+echo "# Homebrew Bottles" | tee -a ~/.config/fish/config.fish  ~/.bash_profile
 echo "set -gx HOMEBREW_BOTTLE_DOMAIN $HOMEBREW_BOTTLE_DOMAIN" | tee -a ~/.config/fish/config.fish
-echo "export HOMEBREW_BOTTLE_DOMAIN=\"$HOMEBREW_BOTTLE_DOMAIN\"" |  tee -a ~/.zshrc ~/.bash_profile
+echo "export HOMEBREW_BOTTLE_DOMAIN=\"$HOMEBREW_BOTTLE_DOMAIN\"" |  tee -a ~/.bash_profile
 
 # https://segmentfault.com/a/1190000004413842
