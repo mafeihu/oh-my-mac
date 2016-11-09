@@ -9,16 +9,6 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 CHECK_FISH_INSTALLED=$(grep /fish$ /etc/shells | wc -l)
 FISHERMAN=~/.config/fish/functions/fisher.fish
 
-# Git
-echo -n "Please input your git username: "
-read username
-echo -n "Please input your git email: "
-read email
-
-git config --global user.name "${username}"
-git config --global user.email ${email}
-git config --global push.default simple
-
 # Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap caskroom/cask
