@@ -1,30 +1,19 @@
 # Mac 安装手册
 
-* [Command Line Tools](http://adcdownload.apple.com/Developer_Tools/Command_Line_Tools_OS_X_10.11_for_Xcode_7.3.1/Command_Line_Tools_OS_X_10.11_for_Xcode_7.3.1.dmg)
 
 ## 基础组件(bootstrap.sh)
 
-**Homebrew Bottles 镜像**
-
-	export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
-
 * [Homebrew](http://brew.sh/)
 * [Homebrew Cask](https://caskroom.github.io/)
-* [oh-my-zsh](http://ohmyz.sh/)
+* [iTerm2](https://www.iterm2.com/)
 * [fish](https://fishshell.com/)
 * [fisherman](http://fisherman.sh/)
-* [iTerm2](https://www.iterm2.com/)
+
 
 切换为 fish
 
 ```bash
 chsh -s /usr/local/bin/fish
-```
-
-切换为 zsh
-
-```bash
-chsh -s /bin/zsh
 ```
 
 ## 普通用户(software.sh)

@@ -6,7 +6,7 @@ sudo spctl --master-disable
 # initialize
 export HOMEBREW_VERBOSE=true
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
-CHECK_FISH_INSTALLED=$(grep /fish$ /etc/shells | wc -l)
+FISH=$(grep /fish$ /etc/shells | wc -l)
 FISHERMAN=~/.config/fish/functions/fisher.fish
 
 # Homebrew
@@ -15,7 +15,7 @@ brew tap caskroom/cask
 brew cask install iterm2
 
 # fish shell
-if [ ! $CHECK_FISH_INSTALLED -ge 1 ]; then
+if [ ! $FISH -ge 1 ]; then
   brew install fish
   echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 fi
@@ -29,5 +29,3 @@ fi
 echo "# Homebrew Bottles" | tee -a ~/.config/fish/config.fish  ~/.bash_profile
 echo "set -gx HOMEBREW_BOTTLE_DOMAIN $HOMEBREW_BOTTLE_DOMAIN" | tee -a ~/.config/fish/config.fish
 echo "export HOMEBREW_BOTTLE_DOMAIN=\"$HOMEBREW_BOTTLE_DOMAIN\"" |  tee -a ~/.bash_profile
-
-# https://segmentfault.com/a/1190000004413842
