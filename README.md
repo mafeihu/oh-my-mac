@@ -116,3 +116,10 @@ chsh -s /usr/local/bin/fish
 * [redis](http://redis.io/)
 * [java](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [elasticsearch](https://www.elastic.co/products/elasticsearch)
+
+
+### tip
+
+创建 postgresql 用户
+
+	createuser -wdrs postgres;

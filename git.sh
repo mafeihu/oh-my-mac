@@ -1,7 +1,7 @@
 #!/bin/bash
 
-read -p "github name" name
-read -p "github email" email
+read -p "github name: " name
+read -p "github email: " email
 
 git config --global user.name "$name"
 git config --global user.email "$email"

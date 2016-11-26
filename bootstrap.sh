@@ -4,7 +4,6 @@
 sudo spctl --master-disable
 
 # initialize
-export HOMEBREW_VERBOSE=true
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 FISH=$(grep /fish$ /etc/shells | wc -l)
 FISHERMAN=~/.config/fish/functions/fisher.fish
