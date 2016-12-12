@@ -1,0 +1,16 @@
+docker pull nginx
+docker pull redis
+docker pull memcached
+docker pull mysql
+docker pull mongo
+docker pull postgres
+docker pull elasticsearch
+docker pull rabbitmq
+docker pull node
+docker pull debian
+docker pull python
+docker pull python:2.7
+docker pull ruby
+docker pull rabbitmq
+docker pull php:5
+docker pull php:5-fpm
