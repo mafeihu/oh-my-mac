@@ -12,31 +12,31 @@ brew cask install atom
 echo 'registry=https://registry.npm.taobao.org/' >> ~/.atom/.apmrc
 echo 'strict-ssl=false' >> ~/.atom/.apmrc
 
-brew cask install wechat-web-devtools
-brew install hub
-brew install tig
-brew install htop
-brew install tree
+brew cask install wechatwebdevtools
+# brew install hub
+# brew install tig
+# brew install htop
+# brew install tree
 # https://dev.yorhel.nl/ncdu
-brew install ncdu
+# brew install ncdu
 brew install wget
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json \
                     qlprettypatch quicklook-csv betterzipql qlimagesize \
                     webpquicklook suspicious-package
 brew cask install charles
-brew cask install sequel-pro
-brew cask install dbeaver-enterprise
+# brew cask install sequel-pro
+# brew cask install dbeaver-enterprise
 brew cask install wireshark
 brew cask install insomnia
 
-brew install graphviz
-brew cask install gimp
-brew cask install licecap
+# brew install graphviz
+# brew cask install gimp
+# brew cask install licecap
 brew cask install gitter
 
 
-brew install heroku
-heroku help
+# brew install heroku
+# heroku help
 
 # pow
-curl -v get.pow.cx | sh
+# curl -v get.pow.cx | sh
