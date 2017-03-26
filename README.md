@@ -18,16 +18,17 @@ chsh -s /usr/local/bin/fish
 
 ## 普通用户(software.sh)
 
-* [QQ](http://im.qq.com/macqq/)
-* [微信](https://github.com/geeeeeeeeek/electronic-wechat)
-* [迅雷](http://mac.xunlei.com/)
-* [阿里旺旺](https://wangwang.taobao.com)
-* [网易云音乐](http://music.163.com/#/download)
-* [百度云](https://pan.baidu.com)
-* [The Unarchiver](https://unarchiver.c3.cx/unarchiver)
-* [鼠鬚管输入法](http://rime.im/)
-* [LibreOffice](https://www.libreoffice.org/)
-* [SPlayerX](https://bitbucket.org/Tomasen/splayerx/wiki/Home)
+* [QQ][QQ]
+* [Electronic WeChat][electronic-wechat]
+* [Ali Wangwang][aliwangwang]
+* [Baidu Cloud][baiducloud]
+* [Baidu Input][baiduinput]
+* [NetEase cloud music][neteasemusic]
+* [Thunder][thunder]
+* [The Unarchiver][the-unarchiver]
+* [LibreOffice][libreoffice]
+* (pending) [SPlayerX][splayerx]、[mpv][mpv]、[IINA](iina)
+* (pending) [Squirrel][squirrel]
 
 
 ## 开发者(developer.sh)
@@ -123,3 +124,21 @@ chsh -s /usr/local/bin/fish
 创建 postgresql 用户
 
 	createuser -wdrs postgres;
+
+
+
+## 参考资料
+
+[QQ]: http://im.qq.com/macqq/
+[electronic-wechat]: https://github.com/geeeeeeeeek/electronic-wechat/
+[aliwangwang]: https://wangwang.taobao.com/
+[baiducloud]: https://pan.baidu.com/
+[baiduinput]: https://srf.baidu.com/input/mac.html
+[neteasemusic]: http://music.163.com/#/download
+[thunder]: http://mac.xunlei.com/
+[the-unarchiver]: https://unarchiver.c3.cx/unarchiver
+[libreoffice]: https://www.libreoffice.org/
+[squirrel]: http://rime.im/download/
+[mpv]: https://mpv.io/
+[splayerx]: https://bitbucket.org/Tomasen/splayerx/wiki/Home
+[iina]: https://lhc70000.github.io/iina/
