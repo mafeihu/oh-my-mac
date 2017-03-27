@@ -33,7 +33,9 @@ chsh -s /usr/local/bin/fish
 
 ## 开发者(developer.sh)
 
-* [ssh-copy-id]
+* [ssh-copy-id][openssh]、[wget][wget]、[htop][htop]
+* 
+* [Tig][tig]
 * [MacDown](http://macdown.uranusjr.com/)
 * [Sublime Text](https://www.sublimetext.com/3)
 * [KeePassX](https://www.keepassx.org)
@@ -48,7 +50,6 @@ chsh -s /usr/local/bin/fish
 * [DBeaver](http://dbeaver.jkiss.org/): 通用数据库客户端
 * [Charles](https://www.charlesproxy.com/): http/https 分析
 * [Ncdu](https://dev.yorhel.nl/ncdu): 磁盘用量分析
-* wget
 * [wireshark](https://www.wireshark.org/): 网络封包分析工具
 * [Pow](http://pow.cx/)
 * [heroku-toolbelt](https://www.heroku.com)
@@ -142,3 +143,9 @@ chsh -s /usr/local/bin/fish
 [mpv]: https://mpv.io/
 [splayerx]: https://bitbucket.org/Tomasen/splayerx/wiki/Home
 [iina]: https://lhc70000.github.io/iina/
+
+[openssh]: https://www.openssh.com/
+[wget]: https://www.gnu.org/software/wget/
+[htop]: https://hisham.hm/htop/
+
+[tig]: http://jonas.nitro.dk/tig/

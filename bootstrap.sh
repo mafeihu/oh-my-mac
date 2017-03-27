@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Sierra
+# Gatekeeper: https://support.apple.com/zh-cn/HT202491
 sudo spctl --master-disable
 
 # initialize
