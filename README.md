@@ -1,13 +1,13 @@
 # Mac 安装手册
 
+`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 ## 基础组件(bootstrap.sh)
 
 * [Homebrew](http://brew.sh/)
 * [Homebrew Cask](https://caskroom.github.io/)
 * [iTerm2](https://www.iterm2.com/)
-* [fish](https://fishshell.com/)
-* [fisherman](http://fisherman.sh/)
+
 
 
 切换为 fish
@@ -34,7 +34,7 @@ chsh -s /usr/local/bin/fish
 ## 开发者(developer.sh)
 
 * [ssh-copy-id][openssh]、[wget][wget]、[htop][htop]
-* 
+*
 * [Tig][tig]
 * [MacDown](http://macdown.uranusjr.com/)
 * [Sublime Text](https://www.sublimetext.com/3)
