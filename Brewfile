@@ -12,3 +12,15 @@ cask 'neteasemusic'
 cask 'thunder'
 cask 'the-unarchiver'
 cask 'libreoffice'
+
+
+# Developer
+cask 'docker'
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
+cask 'vagrant'
+
+cask 'pdfexpert'
+cask 'charles'
+cask 'wireshark'
+cask 'wechatwebdevtools'

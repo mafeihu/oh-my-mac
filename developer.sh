@@ -1,9 +1,9 @@
 #!/bin/bash
 
 brew install tig wget ssh-copy-id
-brew cask install macdown atom rowanj-gitx gitter 
+brew cask install macdown atom rowanj-gitx gitter
 brew cask install keepassx google-chrome calibre pdfexpert
-brew cask install docker vagrant virtualbox virtualbox-extension-pack
+
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json \
                     qlprettypatch quicklook-csv betterzipql qlimagesize \
                     webpquicklook suspicious-package
